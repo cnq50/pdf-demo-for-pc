@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PDF preview demo</title>
+    <link rel="stylesheet" href="fonts/iconfont.css"/>
+    <link rel="stylesheet" href="css/tooltips.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+    <div id="pdfWrapper">
+        <div id="pdfBox">
+            <div id="pdfCon">
+
+                <!--loader-->
+                <div class="spinner dn">
+                    <div class="spinner-container container1">
+                        <div class="circle1"></div>
+                        <div class="circle2"></div>
+                        <div class="circle3"></div>
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="spinner-container container2">
+                        <div class="circle1"></div>
+                        <div class="circle2"></div>
+                        <div class="circle3"></div>
+                        <div class="circle4"></div>
+                    </div>
+                    <div class="spinner-container container3">
+                        <div class="circle1"></div>
+                        <div class="circle2"></div>
+                        <div class="circle3"></div>
+                        <div class="circle4"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--control bar-->
+            <div id="pdfControlBar">
+                <span class="tooltips-left" data-tooltips="上一页"><i class="iconfont icon-shangyishou" id="pdfPrev"></i></span>
+                <span class="pdfPages"> <span id="crtPdfPage">-</span> / <span id="totalPdfPage">-</span> </span>
+                <span class="tooltips-right" data-tooltips="下一页"><i class="iconfont icon-shangyishou-copy" id="pdfNext"></i></span>
+                <span class="tooltips-left pdfFullscreen" data-tooltips="全屏浏览"><i class="iconfont isFull icon-quanping" id="pdfFullscreen"></i></span>
+            </div>
+
+        </div>
+    </div>
+
+    <!--js-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/pdf.js"></script>
+    <script src="js/demo.js"></script>
+</body>
+</html>
