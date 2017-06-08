@@ -12,7 +12,7 @@ $(function(){
     $pdfCon.find('canvas').remove();
     $pdfCon.append('<canvas id="pdfCanvas_'+randomId+'"></canvas>');
 
-    var pdfUrl = 'pdf/AngularJS.pdf'; //pdf地址
+    var pdfUrl = 'pdf/test.pdf'; //pdf地址
     var pdfDoc = null,
         pageNum = 1,
         pageRendering = false,
