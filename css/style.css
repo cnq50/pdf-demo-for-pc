@@ -2,6 +2,10 @@
 * pdf for pc
 * by haibao
 */
+::selection {
+  background: #00a0ea!important;
+  color: #fff;
+}
 html,body{
   background-color:#000;
 }
@@ -33,6 +37,7 @@ html,body{
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+  text-align:center;
 }
 #pdfControlBar{
   width:100%;
